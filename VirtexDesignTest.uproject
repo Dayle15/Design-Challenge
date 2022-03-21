@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -28,6 +28,7 @@
 			"SupportedTargetPlatforms": [
 				"Win32",
 				"Win64",
+				"Linux",
 				"Android",
 				"HoloLens"
 			]
@@ -40,6 +41,10 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
